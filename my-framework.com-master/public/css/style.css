@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/public/fonts/Roboto-Regular.ttf") format('truetype');
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+/**============Header===================*/
+
+.header {
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.nav-link {
+    display: flex;
+}
+
+.nav-link a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/**====================================*/
+
+.main {
+    flex: 1 0 0;
+    display: flex;
+}
+
+.container {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/**============Post===================*/
+
+.post {
+    margin: 25px 0 45px 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.post:last-child {
+    border: none;
+}
+
+.post-title {
+    margin-bottom: 20px;
+}
+
+.post-info {
+    display: flex;
+}
+
+.post-img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.content-text {
+    margin: 15px 0 25px 0;
+}
+
+/*============Profile==================*/
+
+.profile {
+    margin-top: 25px;
+}
+
+.profile-info {
+    display: flex;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.profile-image-container {
+    flex: 30%;
+}
+
+.profile-image {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.profile-user-data {
+    margin-top: 30px;
+    flex: 70%;
+}
+
+.edit-form-block {
+    display: flex;
+    margin: 15px 0 15px 0;
+}
+
+.edit-form-block label {
+    flex: 30%;
+}
+
+.edit-form-block input {
+    width: 250px;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid #575757;
+}
+
+.inp-cont {
+    flex: 70%;
+}
+
+.save-button {
+    background-color: #4272d8;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/**============FormsAuth====================*/
+
+.form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-auth {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px 0 20px;
+}
+
+.form-auth-title {
+    color: #575757;
+}
+
+.input-container {
+    width: 100%;
+    margin: 15px 0 15px 0;
+}
+
+.input-container input{
+    width: 100%;
+    height: 45px;
+    margin: 5px 0 5px 0;
+    padding-left: 8px;
+}
+
+.form-auth-button {
+    background-color: #4272d8;
+    border: none;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/*=============Footer==================*/
+
+.footer {
+    padding: 15px 0 15px 0;
+    border-top: 1px solid #ebebeb
+}
+
+/*====================================*/

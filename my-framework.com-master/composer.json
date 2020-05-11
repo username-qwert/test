@@ -1,0 +1,16 @@
+{
+    "name": "vlad/my-framework.com",
+    "authors": [
+        {
+            "name": "Vlad Pomazan",
+            "email": "vladpomazan22@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core",
+            "App\\": "app"
+        }
+    }
+}
